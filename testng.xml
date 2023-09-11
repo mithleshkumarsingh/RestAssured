@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name=""/>
+</listeners>
+  <test name="Test">
+    <classes>
+      <class name="restassuredDemoExamples.WaysToCreatePostRequestBody"/>
+      <class name="restassuredDemoExamples.PathAndQueryParameters"/>
+      <class name="restassuredDemoExamples.CookiesAndHeaders"/>
+      <class name="restassuredDemoExamples.Authentication"/>
+      <class name="api.endpoints.DDTests"/>
+      <class name="restassuredDemoExamples.UploadFile"/>
+      <class name="restassuredDemoExamples.ParsingXMLData"/>
+      <class name="restassuredDemoExamples.ParsingJsonResponseData"/>
+      <class name="restassuredDemoExamples.APIChaining"/>
+      <class name="api.tests.UserTests"/>
+      <class name="restassuredDemoExamples.SerializationDeserialization"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

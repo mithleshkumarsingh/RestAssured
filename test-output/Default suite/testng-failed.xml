@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="restassuredDemoExamples.WaysToCreatePostRequestBody">
+        <methods>
+          <include name="UsingPOJOClasses"/>
+          <include name="UsingHashmap"/>
+          <include name="UsingExternalJsonFile"/>
+          <include name="Usingorgjson"/>
+        </methods>
+      </class> <!-- restassuredDemoExamples.WaysToCreatePostRequestBody -->
+      <class name="restassuredDemoExamples.ParsingJsonResponseData">
+        <methods>
+          <include name="validateJsonREsponse"/>
+        </methods>
+      </class> <!-- restassuredDemoExamples.ParsingJsonResponseData -->
+      <class name="restassuredDemoExamples.Authentication">
+        <methods>
+          <include name="bearerTokenAuthentication"/>
+          <include name="OAuthAuthentication"/>
+        </methods>
+      </class> <!-- restassuredDemoExamples.Authentication -->
+      <class name="restassuredDemoExamples.ParsingXMLData">
+        <methods>
+          <include name="getXmlData"/>
+        </methods>
+      </class> <!-- restassuredDemoExamples.ParsingXMLData -->
+      <class name="api.endpoints.DDTests">
+        <methods>
+          <include name="testPostUser"/>
+        </methods>
+      </class> <!-- api.endpoints.DDTests -->
+      <class name="restassuredDemoExamples.SerializationDeserialization">
+        <methods>
+          <include name="ConvertjsonToPojo"/>
+        </methods>
+      </class> <!-- restassuredDemoExamples.SerializationDeserialization -->
+      <class name="restassuredDemoExamples.UploadFile">
+        <methods>
+          <include name="uploadsingleFile"/>
+        </methods>
+      </class> <!-- restassuredDemoExamples.UploadFile -->
+      <class name="api.tests.UserTests">
+        <methods>
+          <include name="setupData"/>
+        </methods>
+      </class> <!-- api.tests.UserTests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
